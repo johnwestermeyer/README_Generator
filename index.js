@@ -15,19 +15,19 @@ const questions = [
     },{
         type: "input",
         message: "Installation instructions? ",
-        name = "install"
+        name: "install"
     },{
         type: "input",
         message: "Usage information? ",
-        name = "usage"
+        name: "usage"
     },{
         type: "input",
         message: "Contribution guidelines? ",
-        name = "contrib"
+        name: "contrib"
     },{
         type: "input",
         message: "Tests? ",
-        name = "tests"
+        name: "tests"
     },{
         type: "list",
         message: "License? ",

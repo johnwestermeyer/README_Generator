@@ -21,6 +21,7 @@ function generateMarkdown(data) {
 4. [Contributing](#contributing)
 5. [Tests](#tests)
 6. [License](#license)
+7. [Questions](#questions)
 ## Description
 * ${data.desc}
 ## Installation
@@ -33,6 +34,10 @@ function generateMarkdown(data) {
 * ${data.tests}
 ## License
 * ${licenseDesc}
+## Questions
+* Contact me at:
+  * [My GitHub Profile](https://github.com/${data.user})
+  * My Email ${data.email}
 `;
 }
 

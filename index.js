@@ -6,20 +6,41 @@ const gen = require('./utils/generateMarkdown.js')
 const questions = [
     {
         type: "input",
-        message: "What is the project name?",
+        message: "Project name? ",
         name: "title"
     },{
         type: "input",
-        message: "Whats the short description of the project? (what, why, how)",
+        message: "Description of the project? ",
         name: "desc"
     },{
         type: "input",
-        message: "What problem did the project solve?",
-        name: "prob"
+        message: "Installation instructions? ",
+        name = "install"
     },{
         type: "input",
-        message: "What features does this project have?",
-        name: "feats"
+        message: "Usage information? ",
+        name = "usage"
+    },{
+        type: "input",
+        message: "Contribution guidelines? ",
+        name = "contrib"
+    },{
+        type: "input",
+        message: "Tests? ",
+        name = "tests"
+    },{
+        type: "list",
+        message: "License? ",
+        name: "license",
+        choices: ["MIT", "AGPL", "GNU"]
+    },{
+        type: "input",
+        message: "GitHub username?",
+        name: "user"
+    },{
+        type: "input",
+        message: "Email address?",
+        name: "email"
     }
 ];
 
